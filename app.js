@@ -121,7 +121,7 @@ app.get("/:paramName",(req,res)=>{
 
 
 let port = process.env.port;
-if(port==NULL|| port=='')
+if(port==null|| port=='')
 {
     port:3000
 }
