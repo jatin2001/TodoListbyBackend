@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const Date = require(__dirname +'/Date');
 const app = express();
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/todoListDB', {useNewUrlParser: true, useUnifiedTopology: true,useFindAndModify: false});
+mongoose.connect('mongodb+srv://admin-jatin:9873804639@cluster0.ktbyq.mongodb.net/todoListDB', {useNewUrlParser: true, useUnifiedTopology: true,useFindAndModify: false});
 const ItemSchema = new mongoose.Schema({
     name:String,
 });
